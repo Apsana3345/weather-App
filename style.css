@@ -148,3 +148,30 @@ body{
         font-size: 14px;
     }
 }
+@media(max-width:375px) {
+    
+    .search input{
+        padding: 8px 10px;
+        height: 30px;
+        border-radius: 30px;
+        margin-right: 2px;
+        font-size: 8px;
+        width: 100%;
+        max-width: 250px;
+        box-sizing: border-box;
+    }
+    .search button{
+        
+        width: 30px;
+        height:30px;
+        
+        flex-shrink: 0;
+        margin: 2px 4px;
+    }
+    .search button img{
+        width:10px;
+    
+    }
+    
+     
+    }
